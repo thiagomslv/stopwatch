@@ -34,6 +34,7 @@ export default function StopWatch(){
 
     const start = () => {
 
+        //Recupera o estado anterior.
         let milissecondsCounter = parseInt(milisseconds) * 10;
         let secondsCounter = parseInt(seconds);
         let minutesCounter = parseInt(minutes);
@@ -89,9 +90,9 @@ export default function StopWatch(){
             </div>
 
             <div className='clockbuttons'>
-                <button onClick={start} type="button">Iniciar</button>    
-                <button onClick={stop} type="button">Pausar</button>    
-                <button onClick={reset} type="button">Zerar</button>    
+                <button onClick={start} type="button" className='start'>Iniciar</button>    
+                <button onClick={stop} type="button" className='pause'>Pausar</button>    
+                <button onClick={reset} type="button" className='reset'>Zerar</button>    
             </div>  
             
         </main>

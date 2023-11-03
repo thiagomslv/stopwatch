@@ -35,8 +35,57 @@
 .clockbuttons > button{
 
     width: 75px;
-    height: 30px;
+    height: 35px;
 
-    font-size: 14px;
+    font-size: 15px;
+
+    cursor: pointer;
 }
 
+.start{
+
+    background-color: #4f784e;
+
+    border: none;
+    outline: none;
+
+}
+
+.start:hover{
+
+    border: none;
+    outline: none;
+
+    background-color: #2d5e4c;
+}
+
+.pause{
+
+    background-color: #ef326e;
+    border: none;
+    outline: none;
+}
+
+.pause:hover{
+
+    border: none;
+    outline: none;
+
+    background-color: #e91257;
+}
+
+.reset{
+
+    background-color: #64416c;
+    border: none;
+    outline: none;
+
+}
+
+.reset:hover{
+
+    background-color: #4e2d56;
+    border: none;
+    outline: none;
+
+}

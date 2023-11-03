@@ -1,4 +1,4 @@
-<h1 align=center>Contador numérico</h1>
+<h1 align=center>Cronômetro</h1>
 
 ## 1 - Sobre
 
